@@ -12,7 +12,8 @@ spring:
     enabled: true
     eureka:
      instance:
-      preferIpAddress: true
+       hostname: localhost
+       preferIpAddress: true
     client:
      registerWithEureka: true
      fetchRegistry: true
